@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPattern": "/books/ko1"
+  },
+  "response": {
+    "status": 404,
+    "bodyFileName": "Books/GetId/getId_books_ko.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "request": {
+    "method": "PUT",
+    "urlPattern": "/books/ok",
+    "bodyPatterns": [
+      {
+        "equalToJson": {
+          "title": "The Odyssey",
+          "author": "Homer",
+          "publishedDate": "2024-05-17",
+          "ISBN": "0-7645-2641-3",
+          "available": true,
+          "pageCount": 3
+        }
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "Books/Put/put_books_ok.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

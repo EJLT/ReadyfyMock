@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "PUT",
+    "urlPattern": "/books/ko2"
+  },
+  "response": {
+    "status": 500,
+    "bodyFileName": "Books/Put/put_books_ko2.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

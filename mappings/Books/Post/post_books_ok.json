@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/books",
+    "headers": {
+      "Content-Type": {
+        "equalTo": "application/json"
+      }
+    }
+  },
+  "response": {
+    "status": 201,
+    "bodyFileName": "Books/Post/post_books_ok.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

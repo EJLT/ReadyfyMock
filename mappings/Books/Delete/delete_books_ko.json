@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "DELETE",
+    "urlPattern": "/books/ko"
+  },
+  "response": {
+    "status": 404,
+    "bodyFileName": "Books/Delete/delete_books_ko.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

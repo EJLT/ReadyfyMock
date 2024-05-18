@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/books/ko2"
+  },
+  "response": {
+    "status": 500,
+    "bodyFileName": "Books/Post/post_books_ko2.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

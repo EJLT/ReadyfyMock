@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/books/ok"
+  },
+  "response": {
+    "status": 200,
+    "body": "[{\"id\": 1, \"title\": \"The Catcher in the Rye\", \"author\": \"J.D. Salinger\"}, {\"id\": 2, \"title\": \"To Kill a Mockingbird\", \"author\": \"Harper Lee\"}]",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}
