@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "PUT",
+    "urlPattern": "/loans/ko"
+  },
+  "response": {
+    "status": 404,
+    "bodyFileName": "Loans/Put/put_loans_ko.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

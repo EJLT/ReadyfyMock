@@ -1,0 +1,23 @@
+{
+  "request": {
+    "method": "PUT",
+    "urlPattern": "/users/ko2",
+    "bodyPatterns": [
+      {
+        "equalToJson": {
+          "name": "Rocío",
+          "email": "bibliofilo@gmail.com",
+          "active": true,
+          "role": 2
+        }
+      }
+    ]
+  },
+  "response": {
+    "status": 500,
+    "bodyFileName": "Users/Put/put_users_ko2.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

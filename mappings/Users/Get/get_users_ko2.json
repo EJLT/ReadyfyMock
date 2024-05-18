@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPattern": "/users/ko"
+  },
+  "response": {
+    "status": 500,
+    "bodyFileName": "Users/Get/get_users_ko2.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

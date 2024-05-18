@@ -1,11 +1,11 @@
 {
   "request": {
-    "method": "GET",
+    "method": "DELETE",
     "urlPattern": "/loans/ok"
   },
   "response": {
     "status": 200,
-    "bodyFileName": "Loans/Get/get_loans_ok.json",
+    "bodyFileName": "Loans/Delete/delete_loans_ok.json",
     "headers": {
       "Content-Type": "application/json"
     }

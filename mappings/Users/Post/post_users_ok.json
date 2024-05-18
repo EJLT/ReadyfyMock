@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/users/ok",
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$[?(@.name)]"
+      },
+      {
+        "matchesJsonPath": "$[?(@.email)]"
+      },
+      {
+        "matchesJsonPath": "$[?(@.active)]"
+      },
+      {
+        "matchesJsonPath": "$[?(@.role)]"
+      }
+    ]
+  },
+  "response": {
+    "status": 201,
+    "bodyFileName": "Users/Post/post_users_ok.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

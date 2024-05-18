@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPattern": "/loans/ko2"
+  },
+  "response": {
+    "status": 500,
+    "bodyFileName": "Loans/Get/get_loans_ko2.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

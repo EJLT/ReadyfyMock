@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/users/ko2"
+  },
+  "response": {
+    "status": 500,
+    "bodyFileName": "Users/Post/post_users_ko2.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

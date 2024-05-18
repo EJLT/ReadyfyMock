@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "DELETE",
+    "urlPattern": "/users/ko"
+  },
+  "response": {
+    "status": 404,
+    "bodyFileName": "Users/Delete/delete_users_ko.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

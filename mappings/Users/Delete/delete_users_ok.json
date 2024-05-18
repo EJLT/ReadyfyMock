@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "DELETE",
+    "urlPattern": "/users/ok"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "Users/Delete/delete_users_ok.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

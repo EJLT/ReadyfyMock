@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPattern": "/loans/koId"
+  },
+  "response": {
+    "status": 404,
+    "bodyFileName": "Loans/GetId/getId_loans_ko.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

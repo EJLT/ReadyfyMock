@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPattern": "/loans/ok",
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$.[?(@.returnDate)]"
+      },
+      {
+        "matchesJsonPath": "$.[?(@.returned)]"
+      }
+    ]
+  },
+  "response": {
+    "status": 201,
+    "bodyFileName": "Loans/Post/post_loans_ok.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPattern": "/users/okId"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "Users/GetId/getId_users_ok.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

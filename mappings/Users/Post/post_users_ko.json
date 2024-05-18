@@ -1,0 +1,31 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/users/ko",
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$.name",
+        "absent": true
+      },
+      {
+        "matchesJsonPath": "$.email",
+        "absent": true
+      },
+      {
+        "matchesJsonPath": "$.active",
+        "absent": true
+      },
+      {
+        "matchesJsonPath": "$.role",
+        "absent": true
+      }
+    ]
+  },
+  "response": {
+    "status": 400,
+    "bodyFileName": "Users/Post/post_users_ko.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

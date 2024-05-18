@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "DELETE",
+    "urlPattern": "/loans/ko"
+  },
+  "response": {
+    "status": 404,
+    "bodyFileName": "Loans/Delete/delete_loans_ko.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}
